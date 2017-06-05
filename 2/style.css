@@ -1,0 +1,159 @@
+body{margin: 40px 0 0 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: 宋体;
+	background-color: #fff;
+}
+.ui-tooltip{color: #666;}
+#header{width: 100%;
+	height: 40px;
+	background: url(img/header.png);
+	position: absolute;
+	top: 0;
+}
+#header .header_main{
+	width: 800px;
+	height: 40px;
+	margin: 0 auto;
+}
+#header .header_main h1{
+	font-size: 20px;
+	margin: 0;
+	padding:0 10px;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+#header .header_search{
+	padding-top: 6px;
+	float: left;
+}
+#header .header_search .search{
+	width: 300px;
+	height: 24px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	color: #666;
+	font-size: 14px;
+	text-indent: 5px;
+}
+#header .header_button{
+	padding: 5px;
+	float: left;
+}
+#header .header_member{
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	color: #555;
+	font-size: 14px;
+}
+#header .header_member a{
+	text-decoration: none;
+	color: #555;
+}
+.reg ol,.login ol,.login ol{
+	margin: 0;
+	padding:0 0 0 20px;
+	color: red;
+}
+.reg ol li,.login ol li{
+	height: 20px;
+}
+.reg p,.login p{
+	padding:7px;
+	margin: 0;
+}
+.reg label,.login laber{
+	font-size: 14px;
+	//color: #666;
+}
+.reg .succ,.login .succ{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: url(img/true.png);background-size: 100%;
+}
+.reg .star,.login .star{
+	color: red;
+	font-size: 16px;
+}
+.reg .text,.login .text,.question #title{
+	border-radius: 4px;
+	border:1px solid #ccc;
+	width: 200px;
+	height: 25px;
+	text-indent: 5px;
+	color: #666;
+}
+.question .text{
+	border-radius: 4px;
+	border:1px solid #ccc;
+	width: 200px;
+	height: 25px;
+	text-indent: 5px;
+	color: #666;
+	position: absolute;left: 83px;width: 390px;height: 160px;resize: none;
+}
+//主体
+//.main{background-color: red;}
+.main .main_left{width:580px;float: left;}
+.main .main_right{width:200px;float: right;}
+
+.content .comment{
+	color: #369;
+	cursor: pointer;
+}
+.content .content_list{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding:5px 10px;
+	display: none;
+}
+.content .content_list dl{
+	margin: 0;
+	padding: 3px 0 5px 0;
+	border-bottom: 1px solid #ccc;
+}
+.content .comment_add{
+
+}
+.content .comment_add textarea{
+	width: 100%;
+	resize:none;
+}
+.content .content_list dl dt{
+	margin: 0;
+	padding: 0;
+	color: #369;
+}
+.content .content_list dl dd{
+	margin: 0;
+	padding: 0;
+	line-height: 180%;
+}
+.content .up{
+	float: right;
+	color: #369;
+	cursor: pointer;
+}
+.content .down{
+	float: right;
+	color: #369;
+	cursor: pointer;
+}
+.content .editor{
+	line-height: 180%;
+	overflow: hidden;
+	color: #333;
+}
+.footer{
+	clear: both;
+	padding:10px;
+	text-align: center;
+	color: #666;
+}
+
+
+
